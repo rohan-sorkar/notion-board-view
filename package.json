@@ -1,0 +1,30 @@
+{
+  "name": "fresh-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/react-beautiful-dnd": "^13.1.4",
+    "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "^18.2.0",
+    "shortid": "^2.2.16",
+    "sweetalert2": "^11.7.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@types/shortid": "^0.0.29",
+    "@vitejs/plugin-react": "^3.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  }
+}
